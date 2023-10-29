@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
  
+.nav-bar {
 
+    height: 60px;
+    width: 100%;
+    background-color: rgb(20, 20, 37);
+    justify-content: center;
+    color: #fff;
+    position: sticky;
+    box-shadow: #0e0c0c;
+    
+}
     * {
         margin: 10;
         padding: 10;
@@ -9,8 +19,9 @@
     }
     
     nav {
-        background-color: rgb(175, 12, 12);
-        color: aquamarine;
+        margin: 0 10px;
+        background-color: rgb(198, 187, 247);
+        color: khaki;
         padding: 12px 3px;
         display: flex;
         justify-content: space-between;
@@ -57,7 +68,7 @@
     
     .btn{
         padding: 8px 17px;
-        background: black;
+        background: brown;
         color: white;
         font-weight: 900;
         border: 2px solid gray;
