@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
- 
+@media(min-width:768px) {
+    /*styles for tablets and larger screens*/
+}
+@media(min-width: 1024px) {
+    /*style for desktop screens*/
+}
 .nav-bar {
 
     height: 60px;
